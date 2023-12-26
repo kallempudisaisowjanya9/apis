@@ -1,54 +1,145 @@
 {
-    "users":[
-        {
-            "username":"sai",
-            "password":"123",
-            "role":"manager",
-            "id":1
-        },
-        {
-            "username":"teja",
-            "password":"123",
-            "role":"employee",
-            "id":2
-        },
-        {
-            "username":"puji",
-            "password":"123",
-            "role":"employee",
-            "id":3
-        },
-        {
-            "username":"janu",
-            "password":"123",
-            "role":"employee",
-            "id":4
-        },
-        {
-            "username":"meena",
-            "password":"123",
-            "role":"customer",
-            "id":5
-        },
-        {
-            "username":"srujana",
-            "password":"123",
-            "role":"customer",
-            "id":6
-        },
-        {
-            "username":"vandana",
-            "password":"123",
-            "role":"customer",
-            "id":7
-        }
-    ],
-    "tickets":[],
-    "posts": [
-      { "id": 1, "title": "javascript", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+  "users": [
+    {
+      "username": "sai",
+      "password": "123",
+      "role": "manager",
+      "id": 1
+    },
+    {
+      "username": "teja",
+      "password": "123",
+      "role": "employee",
+      "id": 2
+    },
+    {
+      "username": "puji",
+      "password": "123",
+      "role": "employee",
+      "id": 3
+    },
+    {
+      "username": "janu",
+      "password": "123",
+      "role": "employee",
+      "id": 4
+    },
+    {
+      "username": "meena",
+      "password": "123",
+      "role": "customer",
+      "id": 5
+    },
+    {
+      "username": "srujana",
+      "password": "123",
+      "role": "customer",
+      "id": 6
+    },
+    {
+      "username": "vandana",
+      "password": "123",
+      "role": "customer",
+      "id": 7
+    }
+  ],
+  "tickets": [
+    {
+      "issue": "lift issue",
+      "productName": "edupoly",
+      "image": "",
+      "date": 1703599528057,
+      "customerId": 5,
+      "id": 1
+    },
+    {
+      "issue": "lift problem",
+      "productName": "edupoly building",
+      "image": "",
+      "date": 1703599731056,
+      "customerId": 5,
+      "id": 2
+    },
+    {
+      "issue": "water issue",
+      "productName": "edupoly building",
+      "image": "",
+      "date": 1703599731056,
+      "customerId": 5,
+      "id": 3
+    },
+    {
+      "issue": "washman ",
+      "productName": "hyd",
+      "image": "",
+      "date": 1703599960154,
+      "customerId": 5,
+      "id": 4
+    },
+    {
+      "issue": "cleaning issue",
+      "productName": "eduploy",
+      "image": "",
+      "date": 1703599960154,
+      "customerId": 5,
+      "id": 5
+    },
+    {
+      "issue": "cleaning issue1",
+      "productName": "eduploy",
+      "image": "",
+      "date": 1703599960154,
+      "customerId": 5,
+      "id": 6
+    },
+    {
+      "issue": "lapy issue",
+      "productName": "home",
+      "image": "",
+      "date": 1703600162750,
+      "customerId": 5,
+      "id": 7
+    },
+    {
+      "issue": "lapy issue1",
+      "productName": "home",
+      "image": "",
+      "date": 1703600162750,
+      "customerId": 5,
+      "id": 8
+    },
+    {
+      "issue": "mouse issue",
+      "productName": "delogue",
+      "image": "",
+      "date": 1703600340059,
+      "customerId": 5,
+      "id": 9
+    },
+    {
+      "issue": "mouse issue",
+      "productName": "delogue",
+      "image": "",
+      "date": 1703600340059,
+      "customerId": 5,
+      "id": 10
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "javascript",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
